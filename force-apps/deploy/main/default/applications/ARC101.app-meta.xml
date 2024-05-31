@@ -13,6 +13,8 @@
     <navType>Standard</navType>
     <tabs>Counter</tabs>
     <tabs>standard-StreamingChannel</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_Demo_UtilityBar</utilityBar>
 </CustomApplication>
