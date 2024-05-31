@@ -1,4 +1,4 @@
-@RestResource(urlMapping='/calculator/*')
+@RestResource(urlMapping='/ELTOROIT/calculator/*')
 global with sharing class WS_CalculatorREST {
 	@HttpGet
 	global static String sumGET() {

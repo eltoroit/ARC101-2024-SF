@@ -4,7 +4,6 @@
     <label>ARC101</label>
     <oauthConfig>
         <callbackUrl>https://oauth.pstmn.io/v1/browser-callback</callbackUrl>
-        <consumerKey>3MVG9xfrbKQ6hBysfW.aLrffCiJs48eVlOrK7nXJrvaXNMeQsZfSdDgmY95i5sXJc8C3fHnl.VQlBFRRVThPA</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>

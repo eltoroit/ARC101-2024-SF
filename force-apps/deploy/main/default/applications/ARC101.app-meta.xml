@@ -8,9 +8,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>LWC Demo</label>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>ARC101 Integration Architect</label>
     <navType>Standard</navType>
     <tabs>Counter</tabs>
+    <tabs>standard-StreamingChannel</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LWC_Demo_UtilityBar</utilityBar>
 </CustomApplication>

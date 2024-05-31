@@ -28,6 +28,10 @@
 		"RunApexTests",
 		"GeneratePassword",
 
+		// Configure oAuth Connected App
+		{ "ManualMetadata": { "url": "/lightning/setup/NavigationMenus/home", "message": "Grap oAuth credentials" } },
+		{ "ManualMetadata": { "url": "/lightning/setup/OauthOidcSettings/home", "message": "Enable oAuth UNPW" } },
+
 		// Print results
 		"ShowFinalSuccess"
 	]
