@@ -2,7 +2,7 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <outboundMessages>
         <fullName>OBM_Account</fullName>
-        <apiVersion>61.0</apiVersion>
+        <apiVersion>60.0</apiVersion>
         <endpointUrl>https://91d95fa8-1262-44c6-860c-813b89195ac4.mock.pstmn.io</endpointUrl>
         <fields>AccountNumber</fields>
         <fields>AccountSource</fields>

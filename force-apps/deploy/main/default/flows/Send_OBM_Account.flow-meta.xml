@@ -9,7 +9,7 @@
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
     </actionCalls>
-    <apiVersion>61.0</apiVersion>
+    <apiVersion>60.0</apiVersion>
     <environments>Default</environments>
     <interviewLabel>Send OBM Account {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Send OBM Account</label>
