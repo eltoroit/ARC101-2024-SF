@@ -1,9 +1,11 @@
 Http http = new Http();
 HttpRequest request = new HttpRequest();
-// request.setEndpoint('callout:PostmanServerFast/ping');
-request.setEndpoint('callout:PostmanServerSlow/ping');
-request.setTimeout(20000);
+request.setEndpoint('callout:PostmanServerFast/ping');
+// request.setEndpoint('callout:PostmanServerSlow/ping');
+// request.setTimeout(20000);
 request.setMethod('GET');
 HttpResponse response = http.send(request);
 System.debug(response.getStatusCode());
-System.debug(response.getBody());
+Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+System.debug('dttm: ' + results.get('dttm'));
+System.debug('message: ' + results.get('message'));
