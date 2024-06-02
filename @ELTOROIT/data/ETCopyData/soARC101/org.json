@@ -680,6 +680,9 @@
 		"EmailTemplateChangeEvent": [],
 		"EmbeddedServiceDetail": [],
 		"EmbeddedServiceLabel": [],
+		"Employee__ChangeEvent": [],
+		"Employee__Share": [],
+		"Employee__c": [],
 		"EngagementChannelType": [],
 		"EngagementChannelTypeFeed": [],
 		"EngagementChannelTypeHistory": [],
@@ -4350,6 +4353,19 @@
 				"Must be deletable",
 				"Must be retrieveable",
 				"Must be updateable",
+				"Was Not requested"
+			],
+			"Employee__ChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"Employee__Share": [
+				"Was Not requested"
+			],
+			"Employee__c": [
 				"Was Not requested"
 			],
 			"EngagementChannelType": [
