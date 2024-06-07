@@ -30,7 +30,7 @@
 
 		// Configure oAuth Connected App
 		{ "ManualMetadata": { "url": "/lightning/setup/OauthOidcSettings/home", "message": "Enable oAuth UNPW" } },
-		{ "ManualMetadata": { "url": "/lightning/setup/PermSets/home", "message": "Enable External Credentials in permission set" } },
+		{ "ManualMetadata": { "url": "/lightning/setup/PermSets/home", "message": "Enable External Credential Principal Access in permission set" } },
 		{ "ManualMetadata": { "url": "/lightning/setup/NavigationMenus/home", "message": "Grap oAuth credentials" } },
 
 		// Print results
