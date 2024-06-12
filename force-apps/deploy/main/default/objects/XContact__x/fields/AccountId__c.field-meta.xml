@@ -9,6 +9,7 @@
     <label>Account ID</label>
     <length>18</length>
     <referenceTo>XAccount__x</referenceTo>
-    <relationshipName>Contacts</relationshipName>
+    <relationshipLabel>XContacts</relationshipLabel>
+    <relationshipName>XContacts</relationshipName>
     <type>ExternalLookup</type>
 </CustomField>

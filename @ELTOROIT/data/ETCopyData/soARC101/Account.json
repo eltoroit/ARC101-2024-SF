@@ -1,10 +1,10 @@
 {
-	"fetched": 1,
+	"fetched": 13,
 	"records": [
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v61.0/sobjects/Account/001O100000EvMbyIAF"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5Jj7YAF"
 			},
 			"AccountNumber": null,
 			"AccountSource": null,
@@ -20,8 +20,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": null,
 			"Fax": null,
-			"Id": "001O100000EvMbyIAF",
+			"Id": "001DE00003F5Jj7YAF",
 			"Industry": null,
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -51,7 +52,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrBAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5Jj8YAF"
 			},
 			"AccountNumber": "CD451796",
 			"AccountSource": null,
@@ -67,8 +68,9 @@
 			"CleanStatus": "Pending",
 			"Description": "Edge, founded in 1998, is a start-up based in Austin, TX. The company designs and manufactures a device to convert music from one digital format to another. Edge sells its product through retailers and its own website.",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD451796",
 			"Fax": "(512) 757-9000",
-			"Id": "0011g00000jMVrBAAW",
+			"Id": "001DE00003F5Jj8YAF",
 			"Industry": "Electronics",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -98,7 +100,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrCAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5Jj9YAF"
 			},
 			"AccountNumber": "CD656092",
 			"AccountSource": null,
@@ -114,8 +116,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD656092",
 			"Fax": "(336) 222-8000",
-			"Id": "0011g00000jMVrCAAW",
+			"Id": "001DE00003F5Jj9YAF",
 			"Industry": "Apparel",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -145,7 +148,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrDAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjAYAV"
 			},
 			"AccountNumber": "CC213425",
 			"AccountSource": null,
@@ -161,8 +164,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CC213425",
 			"Fax": "(014) 427-4428",
-			"Id": "0011g00000jMVrDAAW",
+			"Id": "001DE00003F5JjAYAV",
 			"Industry": "Construction",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -192,7 +196,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrEAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjBYAV"
 			},
 			"AccountNumber": "CC634267",
 			"AccountSource": null,
@@ -208,8 +212,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CC634267",
 			"Fax": "(785) 241-6201",
-			"Id": "0011g00000jMVrEAAW",
+			"Id": "001DE00003F5JjBYAV",
 			"Industry": "Consulting",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -239,7 +244,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrFAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjCYAV"
 			},
 			"AccountNumber": "CD439877",
 			"AccountSource": null,
@@ -255,8 +260,9 @@
 			"CleanStatus": "Pending",
 			"Description": "Chain of hotels and resorts across the US, UK, Eastern Europe, Japan, and SE Asia.",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD439877",
 			"Fax": "(312) 596-1500",
-			"Id": "0011g00000jMVrFAAW",
+			"Id": "001DE00003F5JjCYAV",
 			"Industry": "Hospitality",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -286,7 +292,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrGAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjDYAV"
 			},
 			"AccountNumber": "CD355118",
 			"AccountSource": null,
@@ -302,8 +308,9 @@
 			"CleanStatus": "Pending",
 			"Description": "World's third largest oil and gas company.",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD355118",
 			"Fax": "(212) 842-5501",
-			"Id": "0011g00000jMVrGAAW",
+			"Id": "001DE00003F5JjDYAV",
 			"Industry": "Energy",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -333,7 +340,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrHAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjEYAV"
 			},
 			"AccountNumber": "CC947211",
 			"AccountSource": null,
@@ -349,8 +356,9 @@
 			"CleanStatus": "Pending",
 			"Description": "Commerical logistics and transportation company.",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CC947211",
 			"Fax": "(503) 421-7801",
-			"Id": "0011g00000jMVrHAAW",
+			"Id": "001DE00003F5JjEYAV",
 			"Industry": "Transportation",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -380,7 +388,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrIAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjFYAV"
 			},
 			"AccountNumber": "CD736025",
 			"AccountSource": null,
@@ -396,8 +404,9 @@
 			"CleanStatus": "Pending",
 			"Description": "Leading university in AZ offering undergraduate and graduate programs in arts and humanities, pure sciences, engineering, business, and medicine.",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD736025",
 			"Fax": "(520) 773-9060",
-			"Id": "0011g00000jMVrIAAW",
+			"Id": "001DE00003F5JjFYAV",
 			"Industry": "Education",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -427,7 +436,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrJAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjGYAV"
 			},
 			"AccountNumber": "CD355119-A",
 			"AccountSource": null,
@@ -443,8 +452,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD355119-A",
 			"Fax": "+44 191 4956620",
-			"Id": "0011g00000jMVrJAAW",
+			"Id": "001DE00003F5JjGYAV",
 			"Industry": "Energy",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -474,7 +484,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrKAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjHYAV"
 			},
 			"AccountNumber": "CD355120-B",
 			"AccountSource": null,
@@ -490,8 +500,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CD355120-B",
 			"Fax": "(650) 450-8820",
-			"Id": "0011g00000jMVrKAAW",
+			"Id": "001DE00003F5JjHYAV",
 			"Industry": "Energy",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -521,7 +532,7 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrLAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjIYAV"
 			},
 			"AccountNumber": "CC978213",
 			"AccountSource": null,
@@ -537,8 +548,9 @@
 			"CleanStatus": "Pending",
 			"Description": "Genomics company engaged in mapping and sequencing of the human genome and developing gene-based drugs",
 			"DunsNumber": null,
+			"External_Account_Number__c": "CC978213",
 			"Fax": "(650) 867-9895",
-			"Id": "0011g00000jMVrLAAW",
+			"Id": "001DE00003F5JjIYAV",
 			"Industry": "Biotechnology",
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -568,9 +580,9 @@
 		{
 			"attributes": {
 				"type": "Account",
-				"url": "/services/data/v48.0/sobjects/Account/0011g00000jMVrMAAW"
+				"url": "/services/data/v60.0/sobjects/Account/001DE00003F5JjJYAV"
 			},
-			"AccountNumber": null,
+			"AccountNumber": "CC890527",
 			"AccountSource": null,
 			"AnnualRevenue": null,
 			"BillingCity": "San Francisco",
@@ -584,8 +596,9 @@
 			"CleanStatus": "Pending",
 			"Description": null,
 			"DunsNumber": null,
+			"External_Account_Number__c": "CC890527",
 			"Fax": "(415) 901-7002",
-			"Id": "0011g00000jMVrMAAW",
+			"Id": "001DE00003F5JjJYAV",
 			"Industry": null,
 			"Jigsaw": null,
 			"NaicsCode": null,
@@ -613,5 +626,5 @@
 			"YearStarted": null
 		}
 	],
-	"total": 1
+	"total": 13
 }

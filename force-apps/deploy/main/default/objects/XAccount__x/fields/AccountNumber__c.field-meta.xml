@@ -8,7 +8,9 @@
     <isSortingDisabled>false</isSortingDisabled>
     <label>Account Number</label>
     <length>40</length>
-    <required>false</required>
-    <type>Text</type>
-    <unique>false</unique>
+    <referenceTargetField>Account.External_Account_Number__c</referenceTargetField>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>XAccounts</relationshipLabel>
+    <relationshipName>XAccounts</relationshipName>
+    <type>IndirectLookup</type>
 </CustomField>
