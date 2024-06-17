@@ -20,7 +20,7 @@
 					"sObj": "Entitlement"
 				}
 			],
-			"describeUrl": "/services/data/v60.0/sobjects/Account/describe",
+			"describeUrl": "/services/data/v61.0/sobjects/Account/describe",
 			"fields": [
 				"AccountNumber",
 				"AccountSource",
@@ -75,13 +75,14 @@
 		},
 		"Contact": {
 			"children": [],
-			"describeUrl": "/services/data/v60.0/sobjects/Contact/describe",
+			"describeUrl": "/services/data/v61.0/sobjects/Contact/describe",
 			"fields": [
 				"AccountId",
 				"AssistantName",
 				"AssistantPhone",
 				"Birthdate",
 				"CleanStatus",
+				"ContactSource",
 				"Department",
 				"Description",
 				"DoNotCall",
@@ -136,7 +137,7 @@
 		},
 		"Entitlement": {
 			"children": [],
-			"describeUrl": "/services/data/v60.0/sobjects/Entitlement/describe",
+			"describeUrl": "/services/data/v61.0/sobjects/Entitlement/describe",
 			"fields": [
 				"AccountId",
 				"CasesPerEntitlement",
@@ -305,11 +306,17 @@
 		"ApptBundleSortPolicy": [],
 		"ApptBundleSortPolicyFeed": [],
 		"Asset": [],
+		"AssetAccountParticipant": [],
+		"AssetAccountParticipantFeed": [],
+		"AssetAccountParticipantHistory": [],
 		"AssetAction": [],
 		"AssetActionSource": [],
 		"AssetAttribute": [],
 		"AssetAttributeChangeEvent": [],
 		"AssetChangeEvent": [],
+		"AssetContactParticipant": [],
+		"AssetContactParticipantFeed": [],
+		"AssetContactParticipantHistory": [],
 		"AssetDowntimePeriod": [],
 		"AssetDowntimePeriodFeed": [],
 		"AssetDowntimePeriodHistory": [],
@@ -329,6 +336,7 @@
 		"AssignedResource": [],
 		"AssignedResourceChangeEvent": [],
 		"AssignedResourceFeed": [],
+		"AssignedResourceHistory": [],
 		"AssignmentRule": [],
 		"AssociatedLocation": [],
 		"AssociatedLocationHistory": [],
@@ -358,6 +366,7 @@
 		"AuthProvider": [],
 		"AuthSession": [],
 		"AuthorizationForm": [],
+		"AuthorizationFormChangeEvent": [],
 		"AuthorizationFormConsent": [],
 		"AuthorizationFormConsentChangeEvent": [],
 		"AuthorizationFormConsentHistory": [],
@@ -368,6 +377,7 @@
 		"AuthorizationFormHistory": [],
 		"AuthorizationFormShare": [],
 		"AuthorizationFormText": [],
+		"AuthorizationFormTextChangeEvent": [],
 		"AuthorizationFormTextFeed": [],
 		"AuthorizationFormTextHistory": [],
 		"BackgroundOperation": [],
@@ -381,6 +391,7 @@
 		"BriefcaseDefinitionChangeEvent": [],
 		"BriefcaseRule": [],
 		"BriefcaseRuleFilter": [],
+		"BrowserPolicyViolation": [],
 		"BulkApiResultEvent": [],
 		"BulkApiResultEventStore": [],
 		"BusinessBrand": [],
@@ -435,7 +446,9 @@
 		"ColorDefinition": [],
 		"CombinedAttachment": [],
 		"CommSubscription": [],
+		"CommSubscriptionChangeEvent": [],
 		"CommSubscriptionChannelType": [],
+		"CommSubscriptionChannelTypeChangeEvent": [],
 		"CommSubscriptionChannelTypeFeed": [],
 		"CommSubscriptionChannelTypeHistory": [],
 		"CommSubscriptionChannelTypeShare": [],
@@ -466,6 +479,7 @@
 			"AssistantPhone",
 			"Birthdate",
 			"CleanStatus",
+			"ContactSource",
 			"CreatedById",
 			"CreatedDate",
 			"Department",
@@ -619,7 +633,8 @@
 		"CronJobDetail": [],
 		"CronTrigger": [],
 		"CspTrustedSite": [],
-		"CspViolation": [],
+		"CuratedExpJobEvent": [],
+		"CuratedExpPlanEvent": [],
 		"CustomBrand": [],
 		"CustomBrandAsset": [],
 		"CustomHelpMenuItem": [],
@@ -686,6 +701,7 @@
 		"Employee__Share": [],
 		"Employee__c": [],
 		"EngagementChannelType": [],
+		"EngagementChannelTypeChangeEvent": [],
 		"EngagementChannelTypeFeed": [],
 		"EngagementChannelTypeHistory": [],
 		"EngagementChannelTypeShare": [],
@@ -761,6 +777,7 @@
 		"ExternalDataSource": [],
 		"ExternalDataSrcDescriptor": [],
 		"ExternalDataUserAuth": [],
+		"ExternalEncryptionRootKey": [],
 		"ExternalEvent": [],
 		"ExternalEventMapping": [],
 		"ExternalEventMappingShare": [],
@@ -807,7 +824,13 @@
 		"FlowOrchestrationStepInstanceShare": [],
 		"FlowOrchestrationWorkItem": [],
 		"FlowOrchestrationWorkItemShare": [],
+		"FlowRecord": [],
+		"FlowRecordElement": [],
 		"FlowRecordRelation": [],
+		"FlowRecordShare": [],
+		"FlowRecordVersion": [],
+		"FlowRecordVersionChangeEvent": [],
+		"FlowRecordVersionOccurrence": [],
 		"FlowStageRelation": [],
 		"FlowTestResult": [],
 		"FlowTestResultShare": [],
@@ -819,6 +842,10 @@
 		"FormulaFunction": [],
 		"FormulaFunctionAllowedType": [],
 		"FormulaFunctionCategory": [],
+		"GeolocationBasedAction": [],
+		"GeolocationBasedActionFeed": [],
+		"GeolocationBasedActionHistory": [],
+		"GeolocationBasedActionShare": [],
 		"GrantedByLicense": [],
 		"Group": [],
 		"GroupMember": [],
@@ -826,6 +853,9 @@
 		"GuestUserAnomalyEvent": [],
 		"GuestUserAnomalyEventStore": [],
 		"GuestUserAnomalyEventStoreFeed": [],
+		"Heroku__ChangeEvent": [],
+		"Heroku__Share": [],
+		"Heroku__c": [],
 		"Holiday": [],
 		"IPAddressRange": [],
 		"IconDefinition": [],
@@ -902,6 +932,7 @@
 		"LogoutEvent": [],
 		"LogoutEventStream": [],
 		"LookedUpFromActivity": [],
+		"MLEngagementEvent": [],
 		"MLModel": [],
 		"MLModelFactor": [],
 		"MLModelFactorComponent": [],
@@ -1054,6 +1085,7 @@
 		"PrivacyJobSessionShare": [],
 		"PrivacyObjectSession": [],
 		"PrivacyObjectSessionShare": [],
+		"PrivacyPolicy": [],
 		"PrivacyPolicyDefinition": [],
 		"PrivacyRTBFRequest": [],
 		"PrivacyRTBFRequestFeed": [],
@@ -1170,6 +1202,7 @@
 		"RelationshipDomain": [],
 		"RelationshipInfo": [],
 		"RemoteKeyCalloutEvent": [],
+		"ReplyEmailSettings": [],
 		"Report": [],
 		"ReportAnomalyEvent": [],
 		"ReportAnomalyEventStore": [],
@@ -1203,8 +1236,10 @@
 		"SchedulingRule": [],
 		"SchedulingRuleParameter": [],
 		"SchedulingWorkspace": [],
+		"SchedulingWorkspaceFeed": [],
 		"SchedulingWorkspaceShare": [],
 		"SchedulingWorkspaceTerritory": [],
+		"SchedulingWorkspaceTerritoryFeed": [],
 		"Scontrol": [],
 		"Scorecard": [],
 		"ScorecardAssociation": [],
@@ -1355,7 +1390,9 @@
 		"TaskFeed": [],
 		"TaskPriority": [],
 		"TaskStatus": [],
+		"TenantEntitlementTransaction": [],
 		"TenantUsageEntitlement": [],
+		"TenantUsageTypeMultiplier": [],
 		"TestSuiteMembership": [],
 		"ThirdPartyAccountLink": [],
 		"ThreatDetectionFeedback": [],
@@ -1396,6 +1433,10 @@
 		"UserAppMenuCustomizationShare": [],
 		"UserAppMenuItem": [],
 		"UserChangeEvent": [],
+		"UserDefinedLabel": [],
+		"UserDefinedLabelAssignment": [],
+		"UserDefinedLabelAssignmentShare": [],
+		"UserDefinedLabelShare": [],
 		"UserEmailPreferredPerson": [],
 		"UserEmailPreferredPersonShare": [],
 		"UserEntityAccess": [],
@@ -1825,6 +1866,9 @@
 			"Contact.null => AssetChangeEvent": [
 				"Child sObject [AssetChangeEvent] is not processed"
 			],
+			"Contact.AssetContactParticipantContact => AssetContactParticipant": [
+				"Child sObject [AssetContactParticipant] is not processed"
+			],
 			"Contact.AttachedContentDocuments => AttachedContentDocument": [
 				"Child sObject [AttachedContentDocument] is not processed"
 			],
@@ -2092,6 +2136,9 @@
 			"Contact.null => UserChangeEvent": [
 				"Child sObject [UserChangeEvent] is not processed"
 			],
+			"Contact.UserDefinedLabelAssignments => UserDefinedLabelAssignment": [
+				"Child sObject [UserDefinedLabelAssignment] is not processed"
+			],
 			"Contact.PersonRecord => UserEmailPreferredPerson": [
 				"Child sObject [UserEmailPreferredPerson] is not processed"
 			],
@@ -2151,6 +2198,9 @@
 			],
 			"Account.ServicedAssets => Asset": [
 				"Child sObject [Asset] is not processed"
+			],
+			"Account.AssetAccountParticipantAccount => AssetAccountParticipant": [
+				"Child sObject [AssetAccountParticipant] is not processed"
 			],
 			"Account.null => AssetChangeEvent": [
 				"Child sObject [AssetChangeEvent] is not processed"
@@ -2469,6 +2519,9 @@
 			],
 			"Account.null => UserChangeEvent": [
 				"Child sObject [UserChangeEvent] is not processed"
+			],
+			"Account.UserDefinedLabelAssignments => UserDefinedLabelAssignment": [
+				"Child sObject [UserDefinedLabelAssignment] is not processed"
 			],
 			"Account.null => UserRole": [
 				"Child sObject [UserRole] is not processed"
@@ -2857,6 +2910,20 @@
 			"Asset": [
 				"Was Not requested"
 			],
+			"AssetAccountParticipant": [
+				"Was Not requested"
+			],
+			"AssetAccountParticipantFeed": [
+				"Must be createable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"AssetAccountParticipantHistory": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"AssetAction": [
 				"Must be createable",
 				"Must be deletable",
@@ -2884,6 +2951,20 @@
 				"Must be createable",
 				"Must be deletable",
 				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"AssetContactParticipant": [
+				"Was Not requested"
+			],
+			"AssetContactParticipantFeed": [
+				"Must be createable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"AssetContactParticipantHistory": [
+				"Must be createable",
+				"Must be deletable",
 				"Must be updateable",
 				"Was Not requested"
 			],
@@ -2984,6 +3065,12 @@
 			],
 			"AssignedResourceFeed": [
 				"Must be createable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"AssignedResourceHistory": [
+				"Must be createable",
+				"Must be deletable",
 				"Must be updateable",
 				"Was Not requested"
 			],
@@ -3129,6 +3216,13 @@
 			"AuthorizationForm": [
 				"Was Not requested"
 			],
+			"AuthorizationFormChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"AuthorizationFormConsent": [
 				"Was Not requested"
 			],
@@ -3170,6 +3264,13 @@
 				"Was Not requested"
 			],
 			"AuthorizationFormText": [
+				"Was Not requested"
+			],
+			"AuthorizationFormTextChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
 				"Was Not requested"
 			],
 			"AuthorizationFormTextFeed": [
@@ -3239,6 +3340,11 @@
 			"BriefcaseRuleFilter": [
 				"Must be createable",
 				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"BrowserPolicyViolation": [
+				"Must be createable",
 				"Must be updateable",
 				"Was Not requested"
 			],
@@ -3480,7 +3586,21 @@
 			"CommSubscription": [
 				"Was Not requested"
 			],
+			"CommSubscriptionChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"CommSubscriptionChannelType": [
+				"Was Not requested"
+			],
+			"CommSubscriptionChannelTypeChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
 				"Was Not requested"
 			],
 			"CommSubscriptionChannelTypeFeed": [
@@ -4055,7 +4175,19 @@
 			"CspTrustedSite": [
 				"Was Not requested"
 			],
-			"CspViolation": [
+			"CuratedExpJobEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be retrieveable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"CuratedExpPlanEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be retrieveable",
 				"Must be updateable",
 				"Was Not requested"
 			],
@@ -4384,6 +4516,13 @@
 			"EngagementChannelType": [
 				"Was Not requested"
 			],
+			"EngagementChannelTypeChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"EngagementChannelTypeFeed": [
 				"Must be createable",
 				"Must be updateable",
@@ -4607,6 +4746,12 @@
 				"Was Not requested"
 			],
 			"ExternalDataUserAuth": [
+				"Was Not requested"
+			],
+			"ExternalEncryptionRootKey": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be retrieveable",
 				"Was Not requested"
 			],
 			"ExternalEvent": [
@@ -4843,7 +4988,39 @@
 			"FlowOrchestrationWorkItemShare": [
 				"Was Not requested"
 			],
+			"FlowRecord": [
+				"Must be createable",
+				"Was Not requested"
+			],
+			"FlowRecordElement": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"FlowRecordRelation": [
+				"Was Not requested"
+			],
+			"FlowRecordShare": [
+				"Was Not requested"
+			],
+			"FlowRecordVersion": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"FlowRecordVersionChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"FlowRecordVersionOccurrence": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
 				"Was Not requested"
 			],
 			"FlowStageRelation": [
@@ -4913,6 +5090,23 @@
 				"Must be updateable",
 				"Was Not requested"
 			],
+			"GeolocationBasedAction": [
+				"Was Not requested"
+			],
+			"GeolocationBasedActionFeed": [
+				"Must be createable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"GeolocationBasedActionHistory": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"GeolocationBasedActionShare": [
+				"Was Not requested"
+			],
 			"GrantedByLicense": [
 				"Must be createable",
 				"Must be deletable",
@@ -4947,6 +5141,19 @@
 			"GuestUserAnomalyEventStoreFeed": [
 				"Must be createable",
 				"Must be updateable",
+				"Was Not requested"
+			],
+			"Heroku__ChangeEvent": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"Heroku__Share": [
+				"Was Not requested"
+			],
+			"Heroku__c": [
 				"Was Not requested"
 			],
 			"Holiday": [
@@ -5325,6 +5532,13 @@
 			],
 			"LookedUpFromActivity": [
 				"Must be createable",
+				"Must be deletable",
+				"Must be queryable",
+				"Must be retrieveable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"MLEngagementEvent": [
 				"Must be deletable",
 				"Must be queryable",
 				"Must be retrieveable",
@@ -6069,6 +6283,9 @@
 			"PrivacyObjectSessionShare": [
 				"Was Not requested"
 			],
+			"PrivacyPolicy": [
+				"Was Not requested"
+			],
 			"PrivacyPolicyDefinition": [
 				"Was Not requested"
 			],
@@ -6637,6 +6854,10 @@
 				"Must be updateable",
 				"Was Not requested"
 			],
+			"ReplyEmailSettings": [
+				"Must be deletable",
+				"Was Not requested"
+			],
 			"Report": [
 				"Must be createable",
 				"Must be deletable",
@@ -6800,10 +7021,20 @@
 			"SchedulingWorkspace": [
 				"Was Not requested"
 			],
+			"SchedulingWorkspaceFeed": [
+				"Must be createable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"SchedulingWorkspaceShare": [
 				"Was Not requested"
 			],
 			"SchedulingWorkspaceTerritory": [
+				"Was Not requested"
+			],
+			"SchedulingWorkspaceTerritoryFeed": [
+				"Must be createable",
+				"Must be updateable",
 				"Was Not requested"
 			],
 			"Scontrol": [
@@ -7542,7 +7773,19 @@
 				"Must be updateable",
 				"Was Not requested"
 			],
+			"TenantEntitlementTransaction": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
 			"TenantUsageEntitlement": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"TenantUsageTypeMultiplier": [
 				"Must be createable",
 				"Must be deletable",
 				"Must be updateable",
@@ -7737,6 +7980,18 @@
 				"Must be deletable",
 				"Must be queryable",
 				"Must be updateable",
+				"Was Not requested"
+			],
+			"UserDefinedLabel": [
+				"Was Not requested"
+			],
+			"UserDefinedLabelAssignment": [
+				"Was Not requested"
+			],
+			"UserDefinedLabelAssignmentShare": [
+				"Was Not requested"
+			],
+			"UserDefinedLabelShare": [
 				"Was Not requested"
 			],
 			"UserEmailPreferredPerson": [
