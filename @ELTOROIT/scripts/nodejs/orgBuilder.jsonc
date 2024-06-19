@@ -30,6 +30,7 @@
 
 		// Configure oAuth Connected App
 		{ "ManualMetadata": { "url": "/lightning/setup/OauthOidcSettings/home", "message": "Enable oAuth UNPW" } },
+		{ "ManualMetadata": { "url": "/lightning/setup/CorsWhitelistEntries/home", "message": "Enable CORS for OAuth" } },
 		{ "ManualMetadata": { "url": "/lightning/setup/PermSets/home", "message": "Enable External Credential Principal Access in permission set" } },
 		{ "ManualMetadata": { "url": "/lightning/setup/NavigationMenus/home", "message": "Grab oAuth credentials, and update _user.json" } },
 
