@@ -1390,9 +1390,7 @@
 		"TaskFeed": [],
 		"TaskPriority": [],
 		"TaskStatus": [],
-		"TenantEntitlementTransaction": [],
 		"TenantUsageEntitlement": [],
-		"TenantUsageTypeMultiplier": [],
 		"TestSuiteMembership": [],
 		"ThirdPartyAccountLink": [],
 		"ThreatDetectionFeedback": [],
@@ -7773,19 +7771,7 @@
 				"Must be updateable",
 				"Was Not requested"
 			],
-			"TenantEntitlementTransaction": [
-				"Must be createable",
-				"Must be deletable",
-				"Must be updateable",
-				"Was Not requested"
-			],
 			"TenantUsageEntitlement": [
-				"Must be createable",
-				"Must be deletable",
-				"Must be updateable",
-				"Was Not requested"
-			],
-			"TenantUsageTypeMultiplier": [
 				"Must be createable",
 				"Must be deletable",
 				"Must be updateable",
