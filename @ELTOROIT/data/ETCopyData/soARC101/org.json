@@ -653,6 +653,8 @@
 		"DataAssessmentFieldMetric": [],
 		"DataAssessmentMetric": [],
 		"DataAssessmentValueMetric": [],
+		"DataKitDeploymentLog": [],
+		"DataKitDeploymentLogShare": [],
 		"DataObjectDataChgEvent": [],
 		"DataStatistics": [],
 		"DataType": [],
@@ -1031,9 +1033,6 @@
 		"OrderStatus": [],
 		"OrgEmailAddressSecurity": [],
 		"OrgLifecycleNotification": [],
-		"OrgMetric": [],
-		"OrgMetricScanResult": [],
-		"OrgMetricScanSummary": [],
 		"OrgWideEmailAddress": [],
 		"Organization": [],
 		"OutgoingEmail": [],
@@ -4272,6 +4271,14 @@
 				"Must be updateable",
 				"Was Not requested"
 			],
+			"DataKitDeploymentLog": [
+				"Must be createable",
+				"Must be deletable",
+				"Was Not requested"
+			],
+			"DataKitDeploymentLogShare": [
+				"Was Not requested"
+			],
 			"DataObjectDataChgEvent": [
 				"Must be createable",
 				"Must be deletable",
@@ -6016,20 +6023,6 @@
 				"Must be deletable",
 				"Must be queryable",
 				"Must be retrieveable",
-				"Must be updateable",
-				"Was Not requested"
-			],
-			"OrgMetric": [
-				"Must be deletable",
-				"Was Not requested"
-			],
-			"OrgMetricScanResult": [
-				"Must be deletable",
-				"Must be updateable",
-				"Was Not requested"
-			],
-			"OrgMetricScanSummary": [
-				"Must be deletable",
 				"Must be updateable",
 				"Was Not requested"
 			],
